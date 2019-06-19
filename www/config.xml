@@ -83,7 +83,6 @@
     <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-    <application android:theme="@android:style/Theme.NoTitleBar" >
     <string>100</string>
     </gap:config-file>
 
