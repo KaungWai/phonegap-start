@@ -82,8 +82,14 @@
     <icon src="res/icon/windows-phone/icon-48.png"  gap:platform="winphone" />
     <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
 
-    <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-    <string>100</string>
+    <gap:config-file platform="android" parent="/manifest">
+    <supports-screens 
+    android:xlargeScreens="false" 
+    android:largeScreens="false" 
+    android:smallScreens="false" />
+    <application android:theme="@android:style/Theme.NoTitleBar" >
+    <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen" ></activity>
+    </application>
     </gap:config-file>
 
     <!--
