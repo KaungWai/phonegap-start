@@ -5,12 +5,16 @@
         xmlns:android   = "http://schemas.android.com/apk/res/android"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.readynews.indonesia"
-        version   = "1.0.0">
+        version   = "1.0.1">
 
     <name>Ready News Indonesia</name>
 
     <description>
-        Latest hot news in Indonesia
+Ready News Indonesia is a smart news app that organizes news from variety of Indonesian publishers.
+
+This app fetch breaking news headlines from Indonesian publishers in a very first time. You can make a quick overview of breaking news from variety of publishers such as gridoto.com, koton.co.id, cnbcindonesia.com etc.
+
+It summarizes all kinds of Indonesia news including Business News, Entertainment News, Health News, Science News, Sports News & Technology News.
     </description>
 
     <author href="https://play.google.com" email="kaungthantkyaw1994@gmail.com">
@@ -39,7 +43,7 @@
     <preference name="disable-cursor"             value="false" />          <!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
     <preference name="android-installLocation"    value="auto" />           <!-- android: app install 
     location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
-    <preference name="android-minSdkVersion" value="28" />
+    <preference name="android-minSdkVersion" value="26" />
     <preference name="android-targetSdkVersion" value="28" />
     <!--
         Define a specific version of PhoneGap to build into your app.
